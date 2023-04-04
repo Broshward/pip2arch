@@ -1,7 +1,6 @@
 # pip2arch
 pip2arch is a PKGBUILD generator and installing tool for python2 packages. pip3arch - for python3 packages.
 
-help="""
 Usage: pip2arch.py [--create-only] [-g] [-C] [-P] package
 For python3 see the pip3arch.py utility 
 Python2 helper for install to Archlinux python2 modules, which not exists in standart ArchLinux repositories.
@@ -23,4 +22,3 @@ If --create-only option is added it create PKGBUILDs for handlaunches.
         Install only. It Launch of makepkg -i -f --no-confirm for each package
     -P
         No launch pacman -U command for packages
-"""
